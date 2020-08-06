@@ -1,0 +1,193 @@
+body,
+html {
+  height: 100%;
+  font-size: 20px;
+  font-family: "Lora", sans-serif; 
+  line-height: 1.5em; 
+  margin: 0em;
+  color: white;
+  background-color: #9c5500; 
+  box-sizing: border-box;
+}
+
+h1 {
+  letter-spacing: 5px;
+  font-size: 50px;
+  font-family: 'Anton', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  letter-spacing: 3px;
+  font-size: 25px;
+  font-family: 'Anton', sans-serif;
+  color: white;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+p a {
+  color: orange;
+  text-decoration: none;
+}
+
+ul.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+}
+
+li.nav {
+  float: right;
+  font-size: 15px;
+}
+
+li.nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+li.nav a:hover {
+  background-color: #c9c9c9;
+  color: white;
+}
+
+.flex-container {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: nowrap; 
+  justify-content: center; 
+  align-items: center; 
+
+  background-color: #c99d67;
+  padding: 5px;
+
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: 40%;
+}
+
+.heading-home {
+  padding: 2%;
+  color: white;
+  font-size: 50px;
+  letter-spacing: 10px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.intro-text {
+  background-color: white;
+  padding: 4%;
+  margin: 3%;
+  color: black;
+  font-size: 20px; 
+  letter-spacing: 2px; 
+  line-height: 1.4em; 
+  text-align: center;
+}
+
+.text-section {
+  background-color: #c27e2b;
+  padding: 5px 0px;
+  margin: 5px;
+  text-align: center;
+}
+
+.main-message,
+.image-one,
+.image-two,
+.image-three,
+.image-four {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%; 
+  background-attachment: fixed;
+}
+
+.main-message {
+  background-image: url("https://thecounter.org/wp-content/uploads/2020/05/ethiopian-cuisine-restaurant-los-angeles-rosalinds-covid-19-coronavirus-may-2020.jpg");
+}
+
+.image-one {
+  background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/190205150343-kitfo-full-169.jpg");
+}
+
+.image-two{
+  background-image: url("https://i.pinimg.com/originals/b4/66/65/b46665d8252d915f391c99122f5bb855.jpg");
+}
+
+.image-three{
+  background-image: url("https://www.seriouseats.com/images/2014/07/20140712-ethiopian-dc-veggie-brian-oh-2.jpg");
+}
+
+.image-four{
+  background-image: url("https://gobackpacking.com/wp-content/uploads/2011/07/Ethiopian-food.jpg");
+}
+
+.attributions {
+  font-size: 12px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  
+  .flex-container {
+    flex-wrap: wrap;
+    top: 20%;
+  }
+}
+
+@media only screen and (min-width: 701px) {
+    .flex-container-action {
+      flex-wrap: wrap;
+    }
+  
+    .left-container {
+      width: 50%;
+      margin-right: 10%;
+    }
+  }
+  
+  @media only screen and (min-width: 1000px) {
+    .flex-container-action {
+      flex-wrap: nowrap;
+    }
+  }
+  
+  @media only screen and (min-width: 1250px) {
+    .flex-container-action {
+      flex-wrap: nowrap;
+    }
+
+.footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    background-color: #e3a464;
+    color: white;
+    text-align: left;
+ }
+
+ p footer{
+    text-align: center;
+    white-space: pre;
+ }
+}

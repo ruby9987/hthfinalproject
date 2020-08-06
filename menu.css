@@ -1,0 +1,89 @@
+.food-name{
+    font-size: 22px;
+}
+
+.menu-image-one,
+.menu-image-two,
+.menu-image-three,
+.menu-image-four,
+.menu-image-five,
+.veggy-image,
+.beets-pic,
+.beer-pic,
+.wine-pic,
+.dessert-pic,
+.wine-image,
+.drink-pic{
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 25%; 
+  background-attachment: fixed;
+}
+
+.menu-image-one{
+    background-image: url("https://ohmydish.com/wp-content/uploads/2018/10/Turmeric-chicken-kebabs.jpg");
+}
+
+.menu-image-two{
+    background-image: url("https://wellandfull.com/wp-content/uploads/2015/07/lentilsoup-35.jpg");
+}
+
+.menu-image-three{
+    background-image: url("https://www.onceuponachef.com/images/2019/07/Big-Italian-Salad.jpg");
+}
+
+.menu-image-four{
+    background-image: url("https://live.staticflickr.com/4111/4847271430_59562f618a_b.jpg");
+}
+
+.menu-image-five{
+    background-image: url("https://palatablepastime.com/wp-content/uploads/2019/01/ethiopian-beef-siga-tibs-wide.jpg");
+}
+
+.veggy-image{
+    background-image: url("https://i.pinimg.com/originals/ce/26/81/ce2681413df3a7a0c0e711d7477608d2.jpg");
+}
+
+.beets-pic{
+    background-image: url("https://usapears.org/recipe/wp-content/uploads/2017/11/Beets-1-2.jpeg");
+}
+
+.beer-pic{
+    background-image: url("https://im-media.voltron.voanews.com/Drupal/01live-166/styles/sourced/s3/2019-04/0C6D8431-DF16-40DD-A478-931C3463DEAA.jpg?itok=jlLDaRH8");
+}
+
+.wine-pic{
+    background-image: url("https://ethiopianbeer.co.uk/wp-content/uploads/2018/08/7-2-e1533513711143.jpg");
+}
+
+.dessert-pic{
+    background: url("https://www.melabistro.com/wp-content/uploads/2020/01/melabistro-sweets.jpg");
+}
+
+td, th{
+    text-align: left;
+}
+
+td{
+    width: 50%;
+    vertical-align: middle;
+}
+
+.menu{
+    margin: 20px 50px 50px 50px;
+    padding: 10px 40px 40px 40px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+.wine-image{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/573ccaa0cf80a1230a8b7050/1585156006256-4ZFRTLO1CV8X9W2Q3ZXO/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/NA7A6087.jpg?format=2500w");
+}
+
+.drink-pic{
+    background-image: url("https://hoohla.cooking/wp-content/uploads/2019/10/Screenshot_18.jpg");
+}
